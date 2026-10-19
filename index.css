@@ -1,0 +1,438 @@
+/* ==================== Global Styles ==================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ==================== Container ==================== */
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+
+/* ==================== Clearfix ==================== */
+
+.clearfix {
+  clear: both;
+}
+
+
+/* ==================== Header ==================== */
+
+.header {
+  background-color: #111111;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+  width: 30%;
+}
+
+.logo a {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar {
+  float: right;
+  width: 70%;
+  text-align: right;
+}
+
+.navbar a {
+  color: #ffffff;
+  margin-left: 25px;
+  padding: 10px 0;
+}
+
+.navbar a:hover {
+  color: #dddddd;
+}
+
+
+/* ==================== Hero ==================== */
+
+.hero-section {
+  background-color: #eeeeee;
+  padding: 100px 0;
+}
+
+.hero-content {
+  float: left;
+  width: 50%;
+  padding: 50px 30px 50px 0;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.hero-subtitle {
+  color: #555555;
+  font-weight: bold;
+}
+
+.hero-image {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+/* ==================== Buttons ==================== */
+
+.btn {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 14px 25px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: 2px solid #111111;
+}
+
+.btn:hover {
+  background-color: #333333;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #111111;
+}
+
+
+/* ==================== Section Heading ==================== */
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading span,
+.section-subtitle {
+  font-weight: bold;
+  color: #555555;
+}
+
+.section-heading h2 {
+  margin: 15px 0;
+  font-size: 36px;
+}
+
+.section-heading p {
+  color: #666666;
+}
+
+
+/* ==================== Features ==================== */
+
+.features-section {
+  padding: 100px 0;
+}
+
+.feature-card-parent {
+  float: left;
+  width: 33.333%;
+  padding: 15px;
+}
+
+.feature-card {
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  min-height: 300px;
+}
+
+.feature-content img {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 20px;
+}
+
+.feature-content h3 {
+  margin-bottom: 15px;
+}
+
+.feature-content p {
+  line-height: 1.7;
+  color: #666666;
+}
+
+
+/* ==================== About ==================== */
+
+.about-section {
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+
+.about-image {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-content {
+  float: right;
+  width: 50%;
+  padding: 50px 20px 50px 50px;
+}
+
+.about-content h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.about-content p {
+  line-height: 1.8;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+
+/* ==================== Testimonials ==================== */
+
+.testimonials-section {
+  padding: 100px 0;
+}
+
+.testimonial-parent {
+  float: left;
+  width: 33.333%;
+  padding: 15px;
+}
+
+.testimonial-card {
+  border: 1px solid #cccccc;
+  border-radius: 15px;
+  padding: 30px;
+  min-height: 300px;
+}
+
+.testimonial-card blockquote {
+  margin: 0 0 30px;
+  line-height: 1.8;
+  color: #555555;
+}
+
+.member-info {
+  margin-top: 20px;
+}
+
+.member-info img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.member-details {
+  float: left;
+  padding-top: 5px;
+}
+
+.member-details h3 {
+  margin: 0 0 5px;
+}
+
+.member-details p {
+  margin: 0;
+  color: #777777;
+}
+
+
+/* ==================== Statistics ==================== */
+
+.stats-section {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 60px 0;
+}
+
+.stat-item {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 25px;
+  border-right: 1px solid #555555;
+}
+
+.stat-item:last-child {
+  border-right: none;
+}
+
+.stat-item h2 {
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+.stat-item p {
+  margin: 0;
+  color: #cccccc;
+}
+
+
+/* ==================== Membership ==================== */
+
+.membership-section {
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
+
+.membership-form {
+  width: 80%;
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.form-field {
+  width: 100%;
+  padding: 10px;
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.form-field textarea {
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+.submit-btn {
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+/* ==================== Footer ==================== */
+
+.footer {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 70px 0 20px;
+}
+
+.footer-column {
+  float: left;
+  width: 33.333%;
+  padding: 20px;
+}
+
+.footer-column h3 {
+  margin-top: 0;
+}
+
+.footer-column p {
+  color: #cccccc;
+  line-height: 1.7;
+}
+
+.footer-column > a:not(.social-link) {
+  display: block;
+  color: #cccccc;
+  margin-bottom: 12px;
+}
+
+.footer-column > a:not(.social-link):hover {
+  color: #ffffff;
+}
+
+.social-link {
+  margin-right: 10px;
+}
+
+.social-link img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444444;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  color: #aaaaaa;
+}
